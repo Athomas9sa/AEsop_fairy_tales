@@ -1,0 +1,9 @@
+/* CSS Document */
+@font-face {
+  font-family: 'goudyBookletter';
+  src: url('fonts/goudyBookletter.woff') format('woff'),
+       url('fonts/goudyBookletter.ttf') format('truetype'),
+       url('fonts/goudyBookletter.svg#GoudyBookletter1911Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

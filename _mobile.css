@@ -1,0 +1,91 @@
+/* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)  
+Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+/* Prevent iOS, WinMobile from adjusting font size */
+html {
+-webkit-text-size-adjust:none; 
+-ms-text-size-adjust:none;
+}
+body {
+font-size: 90%;
+line-height: 1.333;
+}
+h1 {
+	font-size: 46px;
+	color: #333;
+}
+h2 {
+	font-size: 48px;
+	color: #333;
+}
+#container {
+width: 95%;
+border: none;
+}
+/* Navigation Buttons */
+.nav {
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+#backButton, #nextButton {
+	margin: 10px 0 0;
+}
+#backButtonFooter, #nextButtonFooter {
+	margin: 16px 0 0;
+}
+#backButton a:link, #backButton a:visited, #backButtonFooter a:link, #backButtonFooter a:visited, #nextButton a:link, #nextButton a:visited, #nextButtonFooter a:link, #nextButtonFooter a:visited {
+	color: #444;
+}
+/* toc entries */
+ul.toc li {
+	margin: 0 0 25px;
+}
+ul.toc li a:link, ul.toc li a:visited {
+	font-size: 44px;
+	line-height: 40pt;
+	color: #333;
+}
+/* Header Text (Book Title) */
+.bookTitleHeader {
+	font-size: 42px;
+	line-height: 42pt;
+	color: #777;
+	letter-spacing: 1px;
+}
+.bookTitleHeader a:link, .bookTitleHeader a:visited {
+	color: #777;
+}
+#page {
+	margin:0px 20px 0px 20px;
+}
+#graphic {
+	float:none;
+	margin:0px auto 12px;
+}
+.titleText {
+	font-size: 46px;
+	line-height: 38pt;
+	color: #666;
+	letter-spacing: 1px;
+}
+p {
+	font-size: 48px;
+	line-height: 48pt;
+	text-indent: 75px;
+	letter-spacing: 1px;
+}
+blockquote {
+	font-size: 42px;
+	color: #111;
+	line-height: 42pt;
+	letter-spacing: 1px;
+}
+/* navigation link to about page */
+ul.about {
+	font-size: 40px;
+	color: #222;
+	line-height: 66px;
+	letter-spacing: 1px;
+}
+ul.about li a:link, .about li a:visited {
+	color: #222;
+}
